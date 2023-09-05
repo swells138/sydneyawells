@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import logo from '/home/swells/portfolio/mywebsite/sydneyawells/src/app/black logo.png'
-import squiggles from "/home/swells/portfolio/mywebsite/sydneyawells/src/app/squiggle bg.png"
+import logo from 'public/black logo.png'
+import squiggles from "public/squiggle bg.png"
+
 export default function Home() {
   return (
     <>
