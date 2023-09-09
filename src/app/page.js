@@ -1,27 +1,13 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import logo from 'public/black logo.png'
 import squiggles from "public/squiggle bg.png"
+import Navbar from './components/Navbar'
 
 export default function Home() {
   return (
     <>
-      <div className='columns-2 flex justify-between'>
-        <div>
-          <Image
-            src={logo}
-            width={200}
-            height={200}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className='pt-10 pr-12'>
-          <div className="columns-3">
-            <h1 className='font-semibold text-slate-900'>About</h1>
-            <h1 className='font-semibold text-slate-900'>Resume</h1>
-            <h1 className='font-semibold text-slate-900'>Code</h1>
-          </div>
-        </div>
-      </div>
+      <Navbar></Navbar>
       <div className='flex flex-col items-center pt-12 mt-12'>
         <div className='grid grid-rows-3 grid-flow-col gap-4'>
           <div className='row-span-3'>
@@ -39,11 +25,11 @@ export default function Home() {
           <p className='indent-4'>This could be a summary of shit that I am up to or something like that. I like games and dun and crafts and doing things that make my buns wiggle. Some poo about the navy and doing cool boat stuff and being passionate about junk and such. Keep making this long so that you can see what it looks like when there is content here.</p>
         </div> */}
       </div>
-      <Image
-        src={squiggles}
-        fill={true}
-        alt="Picture of the author"
-      />
+      {/* <Image
+          src={squiggles}
+          fill={true}
+          alt="Picture of the author"
+        /> */}
     </>
   )
 }
