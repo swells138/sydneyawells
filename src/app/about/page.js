@@ -8,11 +8,11 @@ export default function About() {
     return (
         <>
             <Navbar></Navbar>
-            <div className='flex flex-col justify-center items-center h-96 mt-12 pt-10'>
-                <h1 className="text-5xl font-mono">About Me</h1>
-                <div className="w-1/3 pt-5">
+            <div className='sm:flex flex-col justify-center items-center h-96 mt-12 pt-10'>
+                <h1 className="text-center text-5xl sm:text-5xl font-mono">About Me</h1>
+                <div className="text-center sm:w-1/3 pt-5">
                     <p className='font-mono'>
-                        I am software developer currently working at Next Phase Solutions.
+                        I am a software developer currently working at Next Phase Solutions.
                         I spent four years in the Navy as a Boatswain's mate.
                         I love my cats and my partner Holly. I'm originally from Ohio
                         but I have been living in South Carolina for the last two years.

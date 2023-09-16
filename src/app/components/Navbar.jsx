@@ -19,7 +19,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className='pt-10 pr-12'>
-          <div className="columns-3">
+          <div className="columns-2">
             <div>
             <Link className='font-semibold text-slate-900' href="/about">About</Link>
             </div>
