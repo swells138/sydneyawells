@@ -8,12 +8,15 @@ const Navbar = () => {
     <>
    <div className='columns-2 flex justify-between'>
         <div>
+          <Link
+          href="/">
           <Image
             src={logo}
             width={200}
             height={200}
             alt="Initials"
           />
+          </Link>
         </div>
         <div className='pt-10 pr-12'>
           <div className="columns-3">
