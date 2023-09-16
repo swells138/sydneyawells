@@ -9,9 +9,9 @@ export default function Home() {
     <>
       <Navbar></Navbar>
       <div className='flex flex-col items-center pt-12 mt-12'>
-        <div className='grid grid-rows-3 grid-flow-col gap-4'>
+        <div className='sm:grid grid-rows-3 grid-flow-col gap-4'>
           <div className='row-span-3'>
-            <h1 className="text-9xl font-mono font-black">Sydney
+            <h1 className="text-8xl text-center sm:text-9xl font-mono font-black">Sydney
               Wells</h1>
           </div>
           <div className='col-span-2'>
