@@ -18,7 +18,7 @@ export default function Home() {
             <p className='font-semibold leading-loose text-3xl'>Full Stack Web Developer</p>
           </div>
           <div className="row-span-2 col-span-2">
-            <p className='font-medium text-2xl'>Technical Solutions Consultant</p>
+            <p className='font-medium text-2xl'>Customer Success Specialist</p>
           </div>
         </div>
         {/* <div className='w-3/4'>
